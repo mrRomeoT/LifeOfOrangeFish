@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{e001d3e9-622f-4086-bc61-62d307b08afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\Sound">
+      <UniqueIdentifier>{19d68feb-b22f-46ea-9fd5-e450d38f64a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\Particles">
+      <UniqueIdentifier>{547e4851-3cfc-496e-8408-737aacce2a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\Sprite">
+      <UniqueIdentifier>{b941d031-41a2-439b-8e72-f55cdeb415d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\Physics">
+      <UniqueIdentifier>{a0cc70bd-ec87-48a9-9039-048651f7253a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{ece08368-9623-46fb-b18e-417d15026af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Objects">
+      <UniqueIdentifier>{7f800eb5-b22e-45ca-8842-ad59f47f49ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scenes">
+      <UniqueIdentifier>{499bed66-fa20-438d-9d91-321366f4f5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scenes\Menu">
+      <UniqueIdentifier>{ab80acde-7e6c-48ed-bce0-f8734f4ec246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scenes\Game">
+      <UniqueIdentifier>{36773277-8a11-4fc8-8f0c-3a3bf948ded1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Resources">
+      <UniqueIdentifier>{6dd9d7c1-6032-437c-a533-fa539e3b9370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Scenes\Common">
+      <UniqueIdentifier>{2c5f2800-ae41-4822-87a9-616287f59092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Scenes\Menu\MainMenuScene.cpp">
+      <Filter>src\Game\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Scenes\Game\MainGameScene.cpp">
+      <Filter>src\Game\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Resources\ResourcesInfo.cpp">
+      <Filter>src\Game\Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Scenes\Menu\MainMenuScene.h">
+      <Filter>src\Game\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Scenes\Game\MainGameScene.h">
+      <Filter>src\Game\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Resources\ResourcesInfo.h">
+      <Filter>src\Game\Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
