@@ -10,21 +10,6 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Common">
-      <UniqueIdentifier>{e001d3e9-622f-4086-bc61-62d307b08afb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Common\Sound">
-      <UniqueIdentifier>{19d68feb-b22f-46ea-9fd5-e450d38f64a5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Common\Particles">
-      <UniqueIdentifier>{547e4851-3cfc-496e-8408-737aacce2a9c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Common\Sprite">
-      <UniqueIdentifier>{b941d031-41a2-439b-8e72-f55cdeb415d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Common\Physics">
-      <UniqueIdentifier>{a0cc70bd-ec87-48a9-9039-048651f7253a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\Game">
       <UniqueIdentifier>{ece08368-9623-46fb-b18e-417d15026af7}</UniqueIdentifier>
     </Filter>
@@ -40,22 +25,16 @@
     <Filter Include="src\Game\Scenes\Game">
       <UniqueIdentifier>{36773277-8a11-4fc8-8f0c-3a3bf948ded1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Game\Resources">
-      <UniqueIdentifier>{6dd9d7c1-6032-437c-a533-fa539e3b9370}</UniqueIdentifier>
+    <Filter Include="src\Game\Objects\Common">
+      <UniqueIdentifier>{fbd3c6b0-6478-4f38-91a7-0f1820ac54b4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Game\Scenes\Common">
-      <UniqueIdentifier>{2c5f2800-ae41-4822-87a9-616287f59092}</UniqueIdentifier>
+    <Filter Include="src\Game\Objects\Common\Interactable">
+      <UniqueIdentifier>{13fc459b-6610-4ace-a3f8-340e7edc15ef}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\src\Game\Scenes\Menu\MainMenuScene.cpp">
       <Filter>src\Game\Scenes\Menu</Filter>
@@ -63,8 +42,23 @@
     <ClCompile Include="..\Classes\src\Game\Scenes\Game\MainGameScene.cpp">
       <Filter>src\Game\Scenes\Game</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\src\Game\Resources\ResourcesInfo.cpp">
-      <Filter>src\Game\Resources</Filter>
+    <ClCompile Include="..\Classes\src\Game\Objects\OrangeFish.cpp">
+      <Filter>src\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Objects\Bubble.cpp">
+      <Filter>src\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Objects\BadFish.cpp">
+      <Filter>src\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Objects\SimpleFish.cpp">
+      <Filter>src\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\src\Game\Objects\Common\Intersectable\SimpleCocosRectIntersectableObject.cpp">
+      <Filter>src\Game\Objects\Common\Interactable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -74,17 +68,29 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\src\Game\Scenes\Menu\MainMenuScene.h">
       <Filter>src\Game\Scenes\Menu</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\src\Game\Scenes\Game\MainGameScene.h">
       <Filter>src\Game\Scenes\Game</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\src\Game\Resources\ResourcesInfo.h">
-      <Filter>src\Game\Resources</Filter>
+    <ClInclude Include="..\Classes\src\Game\Objects\Bubble.h">
+      <Filter>src\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Objects\OrangeFish.h">
+      <Filter>src\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Objects\BadFish.h">
+      <Filter>src\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Objects\SimpleFish.h">
+      <Filter>src\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Objects\Common\Intersectable\InteractableObjects.h">
+      <Filter>src\Game\Objects\Common\Interactable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\src\Game\Objects\Common\Intersectable\SimpleCocosRectIntersectableObject.h">
+      <Filter>src\Game\Objects\Common\Interactable</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

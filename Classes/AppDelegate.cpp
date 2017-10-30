@@ -1,5 +1,4 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -16,6 +15,7 @@ using namespace cocos2d::experimental;
 using namespace CocosDenshion;
 #endif
 #include "src/Game/Scenes/Menu/MainMenuScene.h"
+#include "src/Game/Scenes/Game/MainGameScene.h"
 
 USING_NS_CC;
 
@@ -104,7 +104,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = MainMenuScene::createScene();
+	auto scene = MainMenuScene::createScene();
 
     // run
     director->runWithScene(scene);
